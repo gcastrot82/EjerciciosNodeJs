@@ -1,0 +1,19 @@
+{
+  "name": "03-basesnodejs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base3": "node app2.js --base=3"
+  },
+  "author": "Gerardo Castro Tamayo",
+  "license": "ISC",
+  "dependencies": {
+    "colores": "^1.0.1",
+    "yargs": "^17.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

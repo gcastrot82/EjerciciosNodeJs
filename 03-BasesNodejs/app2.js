@@ -10,7 +10,16 @@ console.clear();
 
 
 
-const base = 7;
+console.log(process.argv)
+
+const [,,agr3='base=5'] = process.argv
+// Separa cadena por =
+const [,base=5] = agr3.split('=');
+console.log(base);
+
+
+
+//const base = 7;
 
 crearArchivo(base)
     .then(nombreArchivo => console.log(nombreArchivo,'creado'))
